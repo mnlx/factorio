@@ -1,0 +1,360 @@
+   0.000 2018-12-26 15:01:22; Factorio 0.16.51 (build 36654, linux64, headless)
+   0.048 Operating system: Linux (Ubuntu 18.04)
+   0.048 Program arguments: "/opt/factorio/bin/x64/factorio" "--config" "/opt/factorio/config/config.ini" "--port" "34197" "--start-server-load-latest" "--server-settings" "/opt/factorio/data/server-settings.json" 
+   0.048 Read data path: /opt/factorio/data
+   0.048 Write data path: /opt/factorio [6257/7876MB]
+   0.048 Binaries path: /opt/factorio/bin
+   0.054 System info: [CPU: Intel(R) Xeon(R) CPU E5-2686 v4 @ 2.30GHz, 1 core, RAM: 1991 MB]
+   0.054 Environment: DISPLAY=<unset>, WAYLAND_DISPLAY=<unset>
+   0.055 Running in headless mode
+   0.128 Loading mod settings bobenemies 0.16.0 (settings.lua)
+   0.128 Loading mod settings bobinserters 0.16.8 (settings.lua)
+   0.128 Loading mod settings Bottleneck 0.9.3 (settings.lua)
+   0.128 Loading mod settings FARL 2.1.2 (settings.lua)
+   0.128 Loading mod settings long-reach 0.0.12 (settings.lua)
+   0.128 Loading mod settings bobores 0.16.2 (settings.lua)
+   0.129 Loading mod settings bobtech 0.16.6 (settings.lua)
+   0.129 Loading mod settings bobvehicleequipment 0.16.2 (settings.lua)
+   0.129 Loading mod settings bobplates 0.16.5 (settings.lua)
+   0.129 Loading mod settings rso-mod 3.8.2 (settings.lua)
+   0.129 Loading mod settings bobassembly 0.16.1 (settings.lua)
+   0.130 Loading mod settings boblogistics 0.16.23 (settings.lua)
+   0.130 Loading mod settings bobmining 0.16.0 (settings.lua)
+   0.130 Loading mod settings bobmodules 0.16.0 (settings.lua)
+   0.131 Loading mod settings bobwarfare 0.16.7 (settings.lua)
+   0.134 Loading mod core 0.0.0 (data.lua)
+   0.144 Loading mod base 0.16.51 (data.lua)
+   0.259 Loading mod TheFatController 3.0.4 (data.lua)
+   0.261 Script @__TheFatController__/prototypes/fatcontroller.lua:80: {
+  alert_when_damaged = false,
+  animations = {
+    level1 = {
+      idle = {
+        animation_speed = 0.15,
+        axially_symmetrical = false,
+        direction_count = 18,
+        filename = "__TheFatController__/graphics/trans1.png",
+        frame_count = 1,
+        height = 0,
+        priority = "medium",
+        shift = {
+          0,
+          0
+        },
+        width = 0
+      },
+      idle_mask = nil,
+      idle_with_gun = nil,
+      idle_with_gun_mask = nil,
+      mining_with_hands = nil,
+      mining_with_hands_mask = nil,
+      mining_with_tool = nil,
+      mining_with_tool_mask = nil,
+      running = nil,
+      running_mask = nil,
+      running_with_gun = nil,
+      running_with_gun_mask = nil
+    },
+    level2addon = nil,
+    level3addon = nil
+  },
+  build_distance = 0,
+  character_corpse = "character-corpse",
+  collision_box = {
+    {
+      -0.2,
+      -0.2
+    },
+    {
+      0.2,
+      0.2
+    }
+  },
+  collision_mask = {
+    "ghost-layer"
+  },
+  crafting_categories = {
+    "crafting"
+  },
+  damage_hit_tint = {
+    a = 0,
+    b = 0,
+    g = 0,
+    r = 1
+  },
+  distance_per_frame = 0,
+  drop_item_distance = 0,
+  eat = {
+    {
+      filename = "__TheFatController__/sound/empty.ogg",
+      volume = 1
+    }
+  },
+  enter_vehicle_distance = 0,
+  flags = {
+    "placeable-player",
+    "placeable-off-grid",
+    "not-repairable",
+    "not-on-map"
+  },
+  healing_per_tick = 100,
+  heartbeat = {
+    {
+      filename = "__TheFatController__/sound/empty.ogg"
+    }
+  },
+  icon = "__base__/graphics/icons/player.png",
+  icon_size = 32,
+  inventory_size = 0,
+  item_pickup_distance = 0,
+  light = {
+    {
+      color = {
+        b = 1,
+        g = 1,
+        r = 1
+      },
+      intensity = 0.4,
+      minimum_darkness = 0.3,
+      size = 25
+    },
+    {
+      color = {
+        b = 1,
+        g = 1,
+        r = 1
+      },
+      intensity = 0.6,
+      minimum_darkness = 0.3,
+      picture = {
+        filename = "__core__/graphics/light-cone.png",
+        flags = {
+          "light"
+        },
+        height = 200,
+        priority = "extra-high",
+        scale = 2,
+        width = 200
+      },
+      shift = {
+        0,
+        -13
+      },
+      size = 2,
+      type = "oriented"
+    }
+  },
+  loot_pickup_distance = 0,
+  max_health = 100,
+  maximum_corner_sliding_distance = 0,
+  mining_categories = {
+    "basic-solid"
+  },
+  mining_speed = 0,
+  mining_with_hands_particles_animation_positions = {
+    0,
+    0
+  },
+  mining_with_tool_particles_animation_positions = {
+    0
+  },
+  name = "fatcontroller",
+  order = "z",
+  reach_distance = 0,
+  reach_resource_distance = 0,
+  running_sound_animation_positions = {
+    0,
+    0
+  },
+  running_speed = 0,
+  selection_box = {
+    {
+      -0.4,
+      -1.3999999999999999
+    },
+    {
+      0.4,
+      0.2
+    }
+  },
+  sticker_box = {
+    {
+      -0.2,
+      -1
+    },
+    {
+      0.2,
+      0
+    }
+  },
+  subgroup = "creatures",
+  ticks_to_keep_aiming_direction = 0,
+  ticks_to_keep_gun = 0,
+  ticks_to_stay_in_combat = 0,
+  type = "player"
+}
+   0.301 Loading mod autofill 2.0.1 (data.lua)
+   0.336 Loading mod bobenemies 0.16.0 (data.lua)
+   0.379 Loading mod bobinserters 0.16.8 (data.lua)
+   0.417 Loading mod boblibrary 0.16.6 (data.lua)
+   0.456 Loading mod Bottleneck 0.9.3 (data.lua)
+   0.496 Loading mod EvoGUI 0.4.302 (data.lua)
+   0.534 Loading mod FARL 2.1.2 (data.lua)
+   0.575 Loading mod Foreman 3.0.2 (data.lua)
+   0.615 Loading mod upgrade-planner 1.5.3 (data.lua)
+   0.655 Loading mod Warehousing 0.1.3 (data.lua)
+   0.696 Loading mod bobores 0.16.2 (data.lua)
+   0.736 Loading mod bobtech 0.16.6 (data.lua)
+   0.780 Loading mod bobvehicleequipment 0.16.2 (data.lua)
+   0.826 Loading mod bobplates 0.16.5 (data.lua)
+   0.880 Loading mod rso-mod 3.8.2 (data.lua)
+   0.926 Loading mod bobassembly 0.16.1 (data.lua)
+   0.978 Loading mod bobelectronics 0.16.0 (data.lua)
+   1.026 Loading mod bobgreenhouse 0.16.0 (data.lua)
+   1.077 Loading mod boblogistics 0.16.23 (data.lua)
+   1.155 Loading mod bobmining 0.16.0 (data.lua)
+   1.223 Loading mod bobpower 0.16.8 (data.lua)
+   1.298 Loading mod bobrevamp 0.16.3 (data.lua)
+   1.367 Loading mod bobmodules 0.16.0 (data.lua)
+   1.438 Loading mod bobwarfare 0.16.7 (data.lua)
+   1.540 Loading mod base 0.16.51 (data-updates.lua)
+   1.620 Loading mod bobenemies 0.16.0 (data-updates.lua)
+   1.696 Loading mod bobinserters 0.16.8 (data-updates.lua)
+   1.772 Loading mod FARL 2.1.2 (data-updates.lua)
+   1.848 Loading mod Squeak Through 1.2.2 (data-updates.lua)
+   1.931 Loading mod bobores 0.16.2 (data-updates.lua)
+   2.009 Loading mod bobtech 0.16.6 (data-updates.lua)
+   2.087 Loading mod bobvehicleequipment 0.16.2 (data-updates.lua)
+   2.165 Loading mod bobplates 0.16.5 (data-updates.lua)
+   2.170 Script @__boblibrary__/module-functions.lua:12: Recipe polishing-wheel-synthetic does not exist.
+   2.247 Loading mod bobassembly 0.16.1 (data-updates.lua)
+   2.326 Loading mod bobelectronics 0.16.0 (data-updates.lua)
+   2.405 Loading mod bobgreenhouse 0.16.0 (data-updates.lua)
+   2.481 Loading mod boblogistics 0.16.23 (data-updates.lua)
+   2.489 Script @__boblibrary__/technology-functions.lua:24: Technology stack-inserter-3 does not exist.
+   2.564 Loading mod bobmining 0.16.0 (data-updates.lua)
+   2.650 Loading mod bobpower 0.16.8 (data-updates.lua)
+   2.734 Loading mod bobrevamp 0.16.3 (data-updates.lua)
+   2.815 Loading mod bobmodules 0.16.0 (data-updates.lua)
+   2.903 Loading mod bobwarfare 0.16.7 (data-updates.lua)
+   2.907 Script @__boblibrary__/recipe-functions.lua:76: Recipe gun-cotton-synthetic does not exist.
+   2.911 Script @__boblibrary__/module-functions.lua:12: Recipe gun-cotton-synthetic does not exist.
+   2.992 Loading mod FARL 2.1.2 (data-final-fixes.lua)
+   3.069 Loading mod tree_collision 0.4.2 (data-final-fixes.lua)
+   3.149 Loading mod Warehousing 0.1.3 (data-final-fixes.lua)
+   3.230 Loading mod rso-mod 3.8.2 (data-final-fixes.lua)
+   3.307 Loading mod bobelectronics 0.16.0 (data-final-fixes.lua)
+   3.423 Checksum for core: 840319042
+   3.423 Checksum of base: 3323233190
+   3.423 Checksum of TheFatController: 2169334189
+   3.423 Checksum of autofill: 350303756
+   3.423 Checksum of bobenemies: 663681064
+   3.423 Checksum of bobinserters: 1850751968
+   3.423 Checksum of boblibrary: 853747589
+   3.423 Checksum of Bottleneck: 3138809866
+   3.423 Checksum of EvoGUI: 1075929870
+   3.423 Checksum of FARL: 3099333090
+   3.423 Checksum of Foreman: 3548026721
+   3.423 Checksum of long-reach: 4166847516
+   3.423 Checksum of Squeak Through: 3677677690
+   3.423 Checksum of tree_collision: 3231141521
+   3.423 Checksum of upgrade-planner: 378958687
+   3.423 Checksum of Warehousing: 4151823552
+   3.423 Checksum of bobores: 261916876
+   3.423 Checksum of bobtech: 3593510608
+   3.423 Checksum of bobvehicleequipment: 2739354697
+   3.423 Checksum of bobplates: 1545931778
+   3.423 Checksum of rso-mod: 4041938398
+   3.423 Checksum of bobassembly: 2071865677
+   3.423 Checksum of bobelectronics: 3969922877
+   3.423 Checksum of bobgreenhouse: 540722007
+   3.423 Checksum of boblogistics: 379295768
+   3.423 Checksum of bobmining: 1108206312
+   3.423 Checksum of bobpower: 1184491203
+   3.423 Checksum of bobrevamp: 3416749657
+   3.423 Checksum of bobmodules: 4185527414
+   3.423 Checksum of bobwarfare: 2280509014
+   3.670 Info PlayerData.cpp:65: Local player-data.json available, timestamp 1545835841
+   3.670 Info PlayerData.cpp:72: Cloud player-data.json unavailable
+   3.671 Custom inputs active: 0
+   4.703 0 packages available to download (experimental updates disabled).
+   4.705 Factorio initialised
+   4.705 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/api-login?api_version=2
+   5.722 Info HttpSharedState.cpp:145: Status code: 200
+   5.722 Info AuthServerConnector.cpp:172: Got token from auth server for username(monolux).
+   5.722 Info ServerSynchronizer.cpp:29: nextHeartbeatSequenceNumber(0) initialized Synchronizer nextTickClosureTick(0).
+   5.722 Info ServerMultiplayerManager.cpp:699: mapTick(4294967295) changing state from(Ready) to(PreparedToHostGame)
+   5.722 Info ServerMultiplayerManager.cpp:699: mapTick(4294967295) changing state from(PreparedToHostGame) to(CreatingGame)
+   5.727 Loading map /opt/factorio/saves/_autosave2S.zip: 1288516 bytes.
+   5.752 Loading Level.dat: 2190299 bytes.
+   5.767 Info Scenario.cpp:136: Map version 0.16.51-0
+   5.929 Loading script.dat: 39565 bytes.
+   5.936 Checksum for script /opt/factorio/temp/currently-playing/control.lua: 950616531
+   5.946 Checksum for script __TheFatController__/control.lua: 3013058654
+   5.970 Checksum for script __autofill__/control.lua: 2417227806
+   5.977 Checksum for script __bobinserters__/control.lua: 47546247
+   5.983 Checksum for script __Bottleneck__/control.lua: 730129785
+   5.986 Checksum for script __EvoGUI__/control.lua: 1091021108
+   6.009 Checksum for script __FARL__/control.lua: 118530187
+   6.032 Checksum for script __Foreman__/control.lua: 2200113737
+   6.033 Checksum for script __long-reach__/control.lua: 2450699146
+   6.040 Checksum for script __upgrade-planner__/control.lua: 1007996437
+   6.041 Checksum for script __Warehousing__/control.lua: 3476753818
+   6.042 Checksum for script __bobores__/control.lua: 3649119228
+   6.047 Checksum for script __bobplates__/control.lua: 2137047030
+   6.067 Checksum for script __rso-mod__/control.lua: 3714633453
+   6.072 Checksum for script __boblogistics__/control.lua: 4188534431
+   6.149 Info UDPSocket.cpp:27: Opening socket at (IP ADDR:({0.0.0.0:34197}))
+   6.149 Hosting game at IP ADDR:({0.0.0.0:34197})
+   6.149 Info HttpSharedState.cpp:54: Downloading https://auth.factorio.com/generate-server-padlock-2
+   6.294 Info HttpSharedState.cpp:145: Status code: 200
+   6.294 Info AuthServerConnector.cpp:109: Obtained serverPadlock for serverHash (kEC01fQmkNq7GgVHeJNxSiUcPrCmpyB4) from the auth server.
+   6.294 Info ServerMultiplayerManager.cpp:699: mapTick(14828) changing state from(CreatingGame) to(InGame)
+   6.294 Info ServerRouter.cpp:596: Asking pingpong servers (pingpong1.factorio.com:34197, pingpong2.factorio.com:34197) for own address
+   6.302 Info UDPSocket.cpp:39: Opening socket for broadcast
+   6.508 Info ServerRouter.cpp:491: Own address is IP ADDR:({54.233.169.250:34197})
+   7.376 Info MatchingServer.cpp:86: Matching server game `3913172` has been created.
+   7.383 Info ServerMultiplayerManager.cpp:628: Matching server connection resumed
+ 135.810 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({189.28.189.186:52250}))
+ 135.810 Refusing connection for address (IP ADDR:({189.28.189.186:52250})), username (monolux). UserVerificationMissing
+ 136.718 Warning TransmissionControlHelper.cpp:176: Fragment 0002 failed too many times
+ 136.718 Warning TransmissionControlHelper.cpp:176: Fragment 10002 failed too many times
+ 136.719 Warning TransmissionControlHelper.cpp:176: Fragment 20002 failed too many times
+ 136.719 Warning TransmissionControlHelper.cpp:176: Fragment 30002 failed too many times
+ 136.719 Warning TransmissionControlHelper.cpp:176: Fragment 40002 failed too many times
+ 136.719 Warning TransmissionControlHelper.cpp:176: Fragment 50002 failed too many times
+ 136.719 Warning TransmissionControlHelper.cpp:176: Fragment 60002 failed too many times
+ 136.719 Warning TransmissionControlHelper.cpp:176: Fragment 70002 failed too many times
+ 136.719 Warning TransmissionControlHelper.cpp:176: Fragment 80002 failed too many times
+ 136.719 Warning TransmissionControlHelper.cpp:176: Fragment 90002 failed too many times
+ 136.836 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({189.28.189.186:57007}))
+ 136.837 Refusing connection for address (IP ADDR:({189.28.189.186:57007})), username (monolux). PasswordMissing
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 1000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 2000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 3000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 4000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 5000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 6000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 7000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 8000a failed too many times
+ 137.728 Warning TransmissionControlHelper.cpp:176: Fragment 9000a failed too many times
+ 141.478 ConnectionRequestReplyConfirm (type(ConnectionRequestReplyConfirm) ) from(IP ADDR:({189.28.189.186:39870}))
+ 141.478 Info ServerRouter.cpp:409: Replying to connectionRequest for address(IP ADDR:({189.28.189.186:39870})).
+ 141.478 Info ServerSynchronizer.cpp:557: nextHeartbeatSequenceNumber(4015) adding peer(1)
+ 141.495 Info ServerMultiplayerManager.cpp:699: mapTick(14828) changing state from(InGame) to(InGameSavingMap)
+ 141.529 Info ServerMultiplayerManager.cpp:795: mapTick(14828) received stateChanged peerID(1) oldState(Ready) newState(ConnectedWaitingForMap)
+ 141.716 Info ServerMultiplayerManager.cpp:855: MapTick(14828) Serving map(/opt/factorio/temp/mp-save-0.zip) for peer(1) size(1288354) crc(2028523262)
+ 141.716 Info ServerMultiplayerManager.cpp:699: mapTick(14828) changing state from(InGameSavingMap) to(InGame)
+ 141.800 Info ServerMultiplayerManager.cpp:795: mapTick(14828) received stateChanged peerID(1) oldState(ConnectedWaitingForMap) newState(ConnectedDownloadingMap)
+ 142.776 Info ServerMultiplayerManager.cpp:795: mapTick(14828) received stateChanged peerID(1) oldState(ConnectedDownloadingMap) newState(ConnectedLoadingMap)
+ 143.204 Info ServerMultiplayerManager.cpp:795: mapTick(14852) received stateChanged peerID(1) oldState(ConnectedLoadingMap) newState(TryingToCatchUp)
+ 143.273 Info ServerMultiplayerManager.cpp:795: mapTick(14857) received stateChanged peerID(1) oldState(TryingToCatchUp) newState(WaitingForCommandToStartSendingTickClosures)
+ 143.273 Info GameActionHandler.cpp:3476: MapTick (14857) processed PlayerJoinGame peerID(1) playerIndex(1) mode(connect ) 
+ 143.395 Info ServerMultiplayerManager.cpp:795: mapTick(14864) received stateChanged peerID(1) oldState(WaitingForCommandToStartSendingTickClosures) newState(InGame)
+ 189.250 Info ServerMultiplayerManager.cpp:901: Disconnect notification for peer (1)
+ 189.250 Info ServerMultiplayerManager.cpp:795: mapTick(17615) received stateChanged peerID(1) oldState(InGame) newState(DisconnectScheduled)
+ 189.267 Info ServerSynchronizer.cpp:576: nextHeartbeatSequenceNumber(5386) removing peer(1).
+ 190.260 Info ServerMultiplayerManager.cpp:1042: Auto saving map as /opt/factorio/saves/_autosave2S.zip
+ 190.261 Info AppManager.cpp:336: Saving game as /opt/factorio/saves/_autosave2S.zip
+ 190.480 Info AppManagerStates.cpp:1639: Saving finished
